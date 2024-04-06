@@ -1,0 +1,48 @@
+.your_library {
+  height: 18rem;
+  overflow-y: scroll;
+}
+/* .your_library::-webkit-scrollbar{
+    width: 12px;
+    background-color: #ffffff75;
+} */
+.your_library::-webkit-scrollbar {
+  appearance: none;
+  width: 12px;
+  background-color: black;
+}
+
+.sidebar .logoContainer{
+
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  
+}
+
+.sidebar .logoContainer i{
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+ul{
+  list-style: ;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+ul li i{
+  text-decoration: none;
+  color: #848484;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  list-style: none;
+  margin: 5px 0;
+  width: 100%;
+  padding: 5px 0px;
+  position: relative;
+
+}
